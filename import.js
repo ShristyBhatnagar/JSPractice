@@ -1,5 +1,5 @@
 
-import Book from "./script"
+import Book from "./script.js"
 const nBook=new Book(
     "Malgudi days",
     "M K Gandhi",
@@ -15,12 +15,12 @@ const paste=`
 <main>
 <article>
 <ul>
-<li>title</li>
-<li>author</li>
-<li>pages</li>
-<li>headings</li>
-<li>footer</li>
-<li>theme</li>
+<li>Title-${nBook.title}</li>
+<li>Author-${nBook.author}</li>
+<li>Pages-${nBook.pages}</li>
+<li>Heading-${nBook.headings}</li>
+<li>Footer-${nBook.footer}</li>
+<li>Theme-${nBook.theme}</li>
 </ul>
 </article>
 </main>`;
